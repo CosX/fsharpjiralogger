@@ -14,7 +14,7 @@ let run([<HttpTrigger(Extensions.Http.AuthorizationLevel.Anonymous, "post", Rout
     logger.LogInformation(data.["trigger_id"])
     let dialog = String.Format("""
     {
-      "token": "xoxp-3747565826-47275804596-479829903927-bbd9268a49854916f4273e6a156a3248",
+      "token": "***",
       "trigger_id": "{0}",
       "dialog": {
         "title": "Submit a helpdesk ticket",
